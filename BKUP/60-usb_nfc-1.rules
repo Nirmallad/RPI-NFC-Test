@@ -1,0 +1,4 @@
+ACTION=="remove",SUBSYSTEM=="usb",ENV{ID_VENDOR_ID}=="1db2",ENV{ID_MODEL_ID}=="060f",OWNER="pi",RUN+="/usr/local/bin/usb-nfc-out_udev"
+ACTION=="add",SUBSYSTEM=="usb",ENV{ID_VENDOR_ID}=="1db2",ENV{ID_MODEL_ID}=="060f",OWNER="pi",RUN+="/usr/local/bin/usb-nfc-in_udev"    
+
+

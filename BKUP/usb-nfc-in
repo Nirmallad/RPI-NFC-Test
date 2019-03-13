@@ -1,0 +1,5 @@
+#!/bin/bash
+sleep 1
+echo "$(date) NFC Reader Detected" >> /home/pi/nfc_log
+
+
